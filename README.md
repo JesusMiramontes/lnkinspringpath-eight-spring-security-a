@@ -6,6 +6,7 @@ Code part of course: https://www.linkedin.com/learning/spring-spring-security/
 ## Topics
 1) Form based auth
 2) Http basic auth
+3) In-memory authentication
 
 ## Tools
 1) spring-boot-starter-security
