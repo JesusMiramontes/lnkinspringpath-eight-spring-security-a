@@ -9,6 +9,8 @@ Code part of course: https://www.linkedin.com/learning/spring-spring-security/
 3) In-memory authentication
 4) JDBC auth
 5) Password hashing
+6) @PreAuthorize
+7) User roles authorization.
 
 ## Tools
 1) spring-boot-starter-security
