@@ -8,9 +8,11 @@ Code part of course: https://www.linkedin.com/learning/spring-spring-security/
 2) Http basic auth
 3) In-memory authentication
 4) JDBC auth
+5) Password hashing
 
 ## Tools
 1) spring-boot-starter-security
+2) BCrypt
 
 ## Notes
 1) Automatically by implementing spring-boot-starter-security dependency 
