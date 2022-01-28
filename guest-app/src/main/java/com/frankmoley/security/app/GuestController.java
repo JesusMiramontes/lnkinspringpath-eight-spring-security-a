@@ -23,15 +23,24 @@ public class GuestController {
 
     private final GuestService guestService;
 
-    public GuestController(GuestService guestService){
+    public GuestController(GuestService guestService) {
         super();
         this.guestService = guestService;
     }
 
-    @GetMapping(value={"/", "/index"})
-    public String getHomePage(Model model){
-
+    @GetMapping(value = {"/", "/index"})
+    public String getHomePage(Model model) {
         return "index";
+    }
+
+    @GetMapping(value = "/login")
+    public String getLoginPage(Model model){
+        return "login";
+    }
+
+    @GetMapping(value="/logout-success")
+    public String getLogoutPage(Model model){
+        return "logout";
     }
 
     @GetMapping(value="/guests")

@@ -11,6 +11,10 @@ Code part of course: https://www.linkedin.com/learning/spring-spring-security/
 5) Password hashing
 6) @PreAuthorize
 7) User roles authorization.
+8) Login Form.
+9) Layouts.
+10) Custom error page.
+11) Logout page.
 
 ## Tools
 1) spring-boot-starter-security
